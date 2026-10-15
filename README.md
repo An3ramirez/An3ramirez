@@ -4,7 +4,7 @@
 
 **Desarrollador Fullstack de Cali, Colombia 🇨🇴** — diseño, construyo y despliego aplicaciones web y móviles.
 
-[![CV en línea](https://img.shields.io/badge/CV_en_línea-C6FF3D?style=for-the-badge&logo=googlechrome&logoColor=black)](https://an3ramirez.github.io/An3ramirez/)
+<a href="https://an3ramirez.dev" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/CV_en_línea-C6FF3D?style=for-the-badge&logo=googlechrome&logoColor=black" alt="CV en línea" /></a>
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andres-felipe-ramirez-monsalve-421b1b201)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:an3ramirez@gmail.com)
 
@@ -93,13 +93,13 @@ Integro la inteligencia artificial en **cada etapa del ciclo de desarrollo**, el
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=an3ramirez&theme=tokyo-night&hide_border=true&area=true" width="100%" />
+  <img height="165" src="https://streak-stats.demolab.com?user=an3ramirez&theme=tokyonight&hide_border=true&border_radius=12&locale=es" />
 </div>
 
 ---
 
 <div align="center">
 
-**¿Construimos algo juntos?** 👉 [Mira mi CV en línea](https://an3ramirez.dev) o [escríbeme](mailto:an3ramirez@gmail.com).
+**¿Construimos algo juntos?** 👉 <a href="https://an3ramirez.dev" target="_blank" rel="noopener">Mira mi CV en línea</a> o [escríbeme](mailto:an3ramirez@gmail.com).
 
 </div>
