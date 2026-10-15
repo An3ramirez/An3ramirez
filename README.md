@@ -1,52 +1,105 @@
-<h1 align="center">Hi 👋, I'm Andres Ramirez <img height="40" src="https://emoji.gg/assets/emoji/8925-blurple-verified.png"></h1>
-<h3 align="center">A passionate Laravel, Angular and Front-End (and a beginner designer) developer from Colombia</h3>
-
-- 🔭 I’m currently working on my *Php Course*
-
-- 🌱 I’m currently learning *Php, Laravel, Angular, Javascript, HTML5 and CSS3*
-
-- 👯 I’m looking to collaborate on *front-end projects*
-
-- 📫 How to reach me: *an3ramirez@gmail.com*
-
-- ⚡ What I like to do: *I like so much reading, Gym and Dance...and coding of course*
-
-<h3 align="center">Connect with me:</h3>
 <div align="center">
 
-[![image](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andres-felipe-ramirez-monsalve-421b1b201)
-[![image](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:an3ramirez@gmail.com)
-  
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=3000&pause=800&color=C6FF3D&center=true&vCenter=true&width=640&lines=Hola+%F0%9F%91%8B%2C+soy+Andr%C3%A9s+Ram%C3%ADrez;Fullstack+Developer+%C2%B7+%2B8+a%C3%B1os;React+%C2%B7+Angular+%C2%B7+Vue+%C2%B7+Flutter;Django+%C2%B7+Spring+Boot+%C2%B7+Node.js;CI%2FCD+%C2%B7+AWS+%C2%B7+Azure+DevOps;Desarrollo+potenciado+con+IA+%F0%9F%A4%96" alt="Typing SVG" />
+
+**Desarrollador Fullstack de Cali, Colombia 🇨🇴** — diseño, construyo y despliego aplicaciones web y móviles.
+
+[![CV en línea](https://img.shields.io/badge/CV_en_línea-C6FF3D?style=for-the-badge&logo=googlechrome&logoColor=black)](https://an3ramirez.github.io/An3ramirez/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andres-felipe-ramirez-monsalve-421b1b201)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:an3ramirez@gmail.com)
+
 </div>
 
-<h3 align="center">Languages and Tools:</h3>
+---
 
-<p align="center"> 
-  <a href="https://www.w3.org/html/" target="_blank"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> 
-  </a>
-  <a href="https://www.w3schools.com/css/" target="_blank"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> 
-  </a>  
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> 
-  </a>  
-  <a href="https://git-scm.com/" target="_blank"> 
-    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> 
-  </a>
-  <a href="https://laravel.com/" target="_blank"> 
-    <img src="https://camo.githubusercontent.com/63f8942041c20acd922fef42fac8afe7bcbb3c8160eb211b46770f3d0fd0bd05/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f6c61726176656c2e737667" alt="laravel" width="40" height="40"/> 
-  </a>
-  <a href="https://www.php.net/" target="_blank"> 
-    <img src="https://camo.githubusercontent.com/b71df4fcf19980b56b49c963638df23b5d1d2b9e9e487548649651f2f3e1d603/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f7068702e737667" alt="PHP" width="40" height="40"/> 
-  </a> 
-  
-</p>
+### 👨‍💻 Sobre mí
 
-<p align= "center">
-  <img height= "150" src="https://github-readme-stats.vercel.app/api?username=an3ramirez&theme=react&show_icons=true&include_all_commits=true" />  
-  <img height= "150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=an3ramirez&theme=react&layout=compact" />
+```yaml
+nombre:      Andrés Felipe Ramírez Monsalve
+rol:         Fullstack Developer
+experiencia: 8+ años
+ubicación:   Cali, Colombia
+enfoque:     [frontend moderno, microservicios, CI/CD, observabilidad, desarrollo con IA]
+trabajo:     Scrum · equipos multidisciplinarios · desarrollo asistido por IA
+fuera_del_código: [lectura, gym, baile]
+```
 
-</p>
+- 🚀 Construyendo **[Pymes360](https://pymes360.site)**: plataforma propia para pequeñas empresas (Django + PWA, PostgreSQL multi‑tenant y app móvil en Flutter).
+- 🎯 Me apasionan la calidad del código, el rendimiento y las entregas a tiempo.
+- 🤝 Abierto a colaborar en proyectos **fullstack, frontend y mobile**.
+- 📫 Escríbeme a **an3ramirez@gmail.com**
 
-------
+### 🤖 Desarrollo potenciado con IA
+
+Integro la inteligencia artificial en **cada etapa del ciclo de desarrollo**, eligiendo el modelo adecuado para cada paso:
+
+| Etapa | Cómo uso la IA |
+|---|---|
+| 🔍 **Analizar** | Modelos de razonamiento para desglosar historias, detectar casos borde y riesgos antes de codificar. |
+| 🗺️ **Planear** | Diseño de arquitectura y planes de implementación paso a paso que reviso antes de ejecutar. |
+| ⚡ **Construir** | Agentes de código (**Claude Code**) en el IDE para generar, refactorizar y crear componentes reutilizables. |
+| 🧪 **Revisar** | Code review asistido, pruebas automatizadas y chequeos de seguridad antes de cada merge. |
+| 🔌 **Conectar** | Conectores **MCP** que llevan work items, sprints y tiempos de **Azure DevOps** al flujo del agente. |
+
+> 🧠 La IA acelera, pero la calidad la respondo yo: cada cambio pasa por revisión humana, pruebas y buenas prácticas.
+
+### 📈 Impacto en números
+
+| ⚡ Entregas | 🐞 Bugs | 🛡️ Producción | 🚀 Rendimiento | 🔁 Despliegues |
+|:---:|:---:|:---:|:---:|:---:|
+| hasta **40%** más rápidas con automatización | **‑35%** en tiempo de resolución con pruebas automatizadas | **‑30%** de incidentes con observabilidad | carga de **6 s → 2 s** en portales empresariales | **0% downtime** con blue/green en AWS ECS |
+
+### 🛠️ Stack
+
+<div align="center">
+
+**Frontend**<br>
+<img src="https://skillicons.dev/icons?i=react,angular,vue,ts,js,html,css,bootstrap,jquery" />
+
+**Mobile**<br>
+<img src="https://skillicons.dev/icons?i=flutter,dart,ionic" />
+
+**Backend**<br>
+<img src="https://skillicons.dev/icons?i=nodejs,spring,java,django,python,laravel,php,postgres,mysql" />
+
+**Cloud & DevOps**<br>
+<img src="https://skillicons.dev/icons?i=aws,azure,docker,git,github,grafana,prometheus" />
+
+**IA**<br>
+![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=claude&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-1f2533?style=for-the-badge&logo=modelcontextprotocol&logoColor=white)
+![Agentes IA](https://img.shields.io/badge/Agentes_de_IA-9B7BFF?style=for-the-badge&logo=robotframework&logoColor=white)
+![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-0E7490?style=for-the-badge)
+
+</div>
+
+### 💼 Trayectoria
+
+| Periodo | Rol | Empresa |
+|---|---|---|
+| 2023 — 2026 | Desarrollador Frontend (Vue.js, Azure DevOps, desarrollo con IA) | Useit |
+| 2021 — 2023 | Senior Software Developer (Spring Boot, Node.js, AWS) | Personalsoft |
+| 2019 — 2020 | Analista de Desarrollo (Django, PostgreSQL, APIs de pago) | payGO |
+| 2018 — 2019 | Desarrollador Web (Laravel, Angular) | Useit Web |
+| 2018 | Freelance (Django, MySQL, AWS) | Hogar Médico del Valle |
+
+🏆 Reconocido por la entrega anticipada de releases críticos y buenas prácticas DevOps (2023).
+
+### 📊 Estadísticas
+
+<div align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=an3ramirez&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&border_radius=12" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=an3ramirez&layout=compact&theme=tokyonight&hide_border=true&border_radius=12" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=an3ramirez&theme=tokyo-night&hide_border=true&area=true" width="100%" />
+</div>
+
+---
+
+<div align="center">
+
+**¿Construimos algo juntos?** 👉 [Mira mi CV en línea](https://an3ramirez.dev) o [escríbeme](mailto:an3ramirez@gmail.com).
+
+</div>

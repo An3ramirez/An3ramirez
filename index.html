@@ -117,6 +117,29 @@ h2 em{font-style:normal;color:transparent;-webkit-text-stroke:1px var(--ink)}
 .bar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--lime),var(--cyan));transition:width 1.6s cubic-bezier(.2,.8,.2,1)}
 .in .bar i{width:100%}
 
+/* AI WORKFLOW */
+.ai-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:28px;align-items:start}
+@media(max-width:900px){.ai-grid{grid-template-columns:1fr}}
+.ai-intro{position:sticky;top:90px}
+@media(max-width:900px){.ai-intro{position:static}}
+.ai-intro p{color:var(--mute);font-size:17px;margin-bottom:22px}
+.ai-intro p strong{color:var(--ink);font-weight:500}
+.prompt{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px 20px;font-family:var(--mono);font-size:13px;color:var(--mute);position:relative;overflow:hidden}
+.prompt::after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 30%,rgba(155,123,255,.12) 50%,transparent 70%);background-size:250% 100%;animation:sweep 3.5s linear infinite}
+@keyframes sweep{from{background-position:150% 0}to{background-position:-100% 0}}
+.prompt .u{color:var(--violet)}.prompt .r{color:var(--ink)}
+.principle{margin-top:16px;display:flex;gap:14px;align-items:center;padding:16px 18px;border-radius:14px;border:1px solid rgba(155,123,255,.4);background:linear-gradient(135deg,rgba(155,123,255,.12),transparent)}
+.principle span{font-size:26px}
+.principle p{margin:0;font-size:15px;color:var(--ink)}
+.flow{display:grid;gap:14px;position:relative}
+.flow::before{content:"";position:absolute;left:27px;top:20px;bottom:20px;width:2px;background:linear-gradient(var(--violet),var(--cyan),var(--lime));opacity:.5}
+.step{display:grid;grid-template-columns:56px 1fr;gap:16px;align-items:start;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px 20px 18px 0;position:relative;transition:transform .3s,border-color .3s}
+.step:hover{transform:translateX(6px);border-color:var(--sc)}
+.step .ico{width:36px;height:36px;margin-left:10px;border-radius:10px;display:grid;place-items:center;font-size:17px;background:var(--bg2);border:1px solid var(--sc);box-shadow:0 0 16px -4px var(--sc);position:relative;z-index:1}
+.step h4{font-size:18px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:baseline}
+.step h4 code{font-family:var(--mono);font-size:11px;font-weight:400;color:var(--sc)}
+.step p{color:var(--mute);font-size:14.5px;margin-top:4px}
+
 /* GIT GRAPH EXPERIENCE */
 .git{position:relative;padding-left:70px}
 @media(max-width:620px){.git{padding-left:44px}}
@@ -222,6 +245,7 @@ footer{border-top:1px solid var(--line);padding:24px 28px;font-family:var(--mono
   <a href="#top" class="logo">~/andres<span>.dev</span></a>
   <ul>
     <li><a href="#impacto">impacto</a></li>
+    <li><a href="#ia">ia</a></li>
     <li><a href="#experiencia">experiencia</a></li>
     <li><a href="#stack">stack</a></li>
     <li><a href="#proyectos">proyectos</a></li>
@@ -251,7 +275,7 @@ footer{border-top:1px solid var(--line);padding:24px 28px;font-family:var(--mono
       <div class="term-input"><span class="p">➜</span><span class="c">~</span><input id="termIn" autocomplete="off" spellcheck="false" aria-label="Escribe un comando"></div>
     </div>
     <div class="term-hint">prueba:
-      <button data-cmd="whoami">whoami</button><button data-cmd="skills">skills</button><button data-cmd="stats">stats</button><button data-cmd="contacto">contacto</button><button data-cmd="sudo contratar">sudo contratar</button>
+      <button data-cmd="whoami">whoami</button><button data-cmd="ia">ia</button><button data-cmd="skills">skills</button><button data-cmd="stats">stats</button><button data-cmd="contacto">contacto</button><button data-cmd="sudo contratar">sudo contratar</button>
     </div>
   </div>
 </section>
@@ -270,6 +294,20 @@ footer{border-top:1px solid var(--line);padding:24px 28px;font-family:var(--mono
     <div class="stage"><div class="st">test</div><div class="num" data-count="35">0<small>%</small></div><p>menos tiempo de resolución de bugs con pruebas automatizadas.</p><div class="bar"><i></i></div></div>
     <div class="stage"><div class="st">monitor</div><div class="num" data-count="30">0<small>%</small></div><p>menos incidentes en producción gracias a observabilidad.</p><div class="bar"><i></i></div></div>
     <div class="stage"><div class="st">deploy</div><div class="num" data-count="0" data-suffix="">0<small>% downtime</small></div><p>despliegues blue/green en AWS ECS sin interrupciones.</p><div class="bar"><i></i></div></div>
+  </div>
+</section>
+
+<!-- AI -->
+<section id="ia">
+  <span class="tag">claude --workflow</span>
+  <h2>Desarrollo potenciado<br>con <em>inteligencia artificial</em>.</h2>
+  <div class="ai-grid">
+    <div class="ai-intro reveal">
+      <p>Integro la IA en <strong>cada etapa del ciclo de desarrollo</strong>, eligiendo el modelo adecuado para cada paso: razonamiento para analizar y planear, agentes para construir y revisar, y conectores para llevar el contexto del proyecto hasta el editor.</p>
+      <div class="prompt"><span class="u">❯ tú:</span> <span class="r">"analiza esta historia y detecta riesgos antes de codificar"</span><br><span class="u">❯ agente:</span> 3 casos borde · 1 dependencia bloqueante · plan en 5 pasos ✓</div>
+      <div class="principle"><span>🧠</span><p>La IA acelera, pero la calidad la respondo yo: cada cambio pasa por revisión humana, pruebas y buenas prácticas.</p></div>
+    </div>
+    <div class="flow" id="aiFlow"></div>
   </div>
 </section>
 
@@ -382,7 +420,8 @@ const GROUPS = [
   {n:'mobile', c:'--pink', s:['Flutter','Ionic','React Native']},
   {n:'backend', c:'--cyan', s:['Node.js','Spring Boot','Java','Django','Laravel','Yii Framework','PostgreSQL','MySQL']},
   {n:'cloud & devops', c:'--violet', s:['AWS','Azure DevOps','CI/CD','Git','Grafana','Prometheus']},
-  {n:'forma de trabajo', c:'--amber', s:['Scrum','Metodologías ágiles','Desarrollo asistido por IA','Inglés · básico']}
+  {n:'inteligencia artificial', c:'--violet', s:['Claude Code','Agentes de IA','MCP','Prompt engineering','Code review con IA']},
+  {n:'forma de trabajo', c:'--amber', s:['Scrum','Metodologías ágiles','Inglés · básico']}
 ];
 const hash = () => Math.random().toString(16).slice(2,9);
 
@@ -431,11 +470,21 @@ const fitOrbit=()=>orbit.querySelectorAll('.ring').forEach(r=>{
 addEventListener('resize',fitOrbit); requestAnimationFrame(fitOrbit);
 
 // Marquee
-const mq=['Angular','Laravel','Ionic','Flutter','React','AWS','DevOps','React Native','Java','Django','Yii','Node.js','Vue 3','Spring Boot'];
+const AI=[
+  {c:'--violet', i:'🔍', t:'Analizar', k:'modelos de razonamiento', d:'Desgloso requerimientos e historias de usuario, encuentro casos borde y riesgos antes de escribir código.'},
+  {c:'--cyan', i:'🗺️', t:'Planear', k:'plan mode', d:'Diseño la arquitectura y un plan de implementación paso a paso que reviso y ajusto antes de ejecutar.'},
+  {c:'--lime', i:'⚡', t:'Construir', k:'Claude Code · agentes', d:'Agentes de código en el IDE para generar, refactorizar y crear componentes reutilizables mucho más rápido.'},
+  {c:'--pink', i:'🧪', t:'Revisar', k:'code review · tests', d:'Revisión de código asistida, pruebas automatizadas y chequeos de seguridad antes de cada merge.'},
+  {c:'--amber', i:'🔌', t:'Conectar', k:'MCP · Azure DevOps', d:'Conectores MCP que llevan work items, sprints y tiempos de Azure DevOps directamente al flujo del agente.'}
+];
+document.getElementById('aiFlow').innerHTML=AI.map((a,n)=>`
+  <div class="step reveal" style="--sc:var(${a.c});transition-delay:${n*80}ms"><div class="ico">${a.i}</div><div><h4>${String(n+1).padStart(2,'0')} · ${a.t}<code>${a.k}</code></h4><p>${a.d}</p></div></div>`).join('');
+
+const mq=['Claude Code','Angular','Laravel','Ionic','Flutter','React','AWS','DevOps','React Native','Java','Django','Yii','Node.js','Vue 3','Spring Boot','Agentes IA','MCP'];
 document.getElementById('marquee').innerHTML=[...mq,...mq].map(s=>`<span>${s}</span>`).join('');
 
 // Typed role
-const roles=['Fullstack Developer','Frontend con React · Angular · Vue','Backend con Django · Spring · Node','Mobile con Flutter · Ionic','CI/CD · AWS · Azure DevOps'];
+const roles=['Fullstack Developer','Frontend con React · Angular · Vue','Backend con Django · Spring · Node','Mobile con Flutter · Ionic','CI/CD · AWS · Azure DevOps','Desarrollo potenciado con IA 🤖'];
 const typed=document.getElementById('typed'); let ri=0,ci=0,del=false;
 (function type(){
   const w=roles[ri]; typed.textContent=w.slice(0,ci);
@@ -470,6 +519,7 @@ const CMDS={
   <span class="c">skills</span>      mi stack
   <span class="c">experiencia</span> resumen de carrera
   <span class="c">proyectos</span>   lo que he construido
+  <span class="c">ia</span>          cómo trabajo con IA
   <span class="c">stats</span>       números que importan
   <span class="c">contacto</span>    cómo encontrarme
   <span class="c">clear</span>       limpiar pantalla`,
@@ -494,6 +544,8 @@ github   <a class="c" href="https://github.com/An3ramirez" target="_blank" rel="
   ls:()=>`<span class="c">experiencia/</span>  <span class="c">proyectos/</span>  <span class="c">skills/</span>  cv.pdf  README.md`,
   'rm -rf /':()=>`<span class="k">Buen intento 😏</span> — yo hago despliegues con 0% downtime.`
 };
+CMDS.ia=()=>AI.map((a,n)=>`<span class="p">${n+1}.</span> <span class="w">${a.t.padEnd(10)}</span><span class="k">${a.k}</span>`).join('\n')+`\n<span class="c">→ la IA acelera; la calidad la garantizo yo.</span>`;
+CMDS.ai=CMDS.ia;
 CMDS.contratar=CMDS['sudo contratar'];
 const run=cmd=>{
   cmd=cmd.trim(); print(`<span class="p">➜</span> <span class="c">~</span> <span class="w">${cmd.replace(/</g,'&lt;')}</span>`);
@@ -508,7 +560,7 @@ document.getElementById('term').addEventListener('click',e=>{
   if(b){run(b.dataset.cmd)} else if(!e.target.closest('a')) inp.focus({preventScroll:true});
 });
 // Boot sequence
-const boot=['<span class="a">[ ok ]</span> cargando experiencia... 8+ años','<span class="a">[ ok ]</span> montando stack: React · Angular · Vue · Django · Spring','<span class="a">[ ok ]</span> conectando a AWS & Azure DevOps',`<span class="p">✔ sistema listo.</span> escribe <span class="c">help</span> para empezar.`];
+const boot=['<span class="a">[ ok ]</span> cargando experiencia... 8+ años','<span class="a">[ ok ]</span> montando stack: React · Angular · Vue · Django · Spring','<span class="a">[ ok ]</span> conectando a AWS & Azure DevOps','<span class="a">[ ok ]</span> iniciando agentes de IA · MCP listo',`<span class="p">✔ sistema listo.</span> escribe <span class="c">help</span> para empezar.`];
 boot.forEach((l,i)=>setTimeout(()=>print(l),300+i*420));
 setTimeout(()=>run('whoami'),300+boot.length*420+300);
 
